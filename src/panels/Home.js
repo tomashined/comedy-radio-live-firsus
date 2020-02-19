@@ -30,11 +30,41 @@ const Home = ({ id, go, fetchedUser }) => (
 		</Group>
 
 		<Group title="Navigation Example">
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Persik, please 22222
-				</Button>
-			</Div>
+		<div class="vkframe__player">
+ <div class="marquee">
+ <div class="TitleSongAir" data-prefixchannel="comedy-radio.ru" data-idstation="1" data-sourse="server">
+ </div>
+ <div class="marquee__wrapper">
+ <span class="marquee__artist TitleExecutorAir">Sofi Tukker</span>
+ <span class="marquee__delimeter TitleSongAirSeparator" style="">—</span>
+ <span class="marquee__track TitleTracksAir">Feeling Good</span>
+ </div>
+ </div>
+ 
+  <div class="player ">
+ <div class="player__play">
+ <a href="#" class="icon icon-control icon-play player__play-icon toggleplayer play " data-player="player_vkframe_1">
+ </a>
+        
+ <audio data-outreach="true" id="player_vkframe_1" data-playlist="https://stl.101.ru/api/channel/getServers/202/channel/acc/64" data-progress="false" preload="none" data-type="audio/aac">
+ </audio>
+  </div>
+ 
+  
+  
+  <div class="volume">
+ <i class="icon icon-control icon-volume icon-volume-full volume__icon"></i>
+ <div class="volume__bar">
+ <div class="volume__btn" style="left: 44px;"></div>
+ <div class="volume__fill" style="width: 43.8666%;"></div>
+ </div>
+ </div>
+  
+ <script>
+  
+  </script>
+ </div>
+ </div>
 		</Group>
 	</Panel>
 );
