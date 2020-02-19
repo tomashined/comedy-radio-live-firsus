@@ -2,7 +2,7 @@
   "name": "comedy-radio-live-firsus",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://tomashined.github.io/comedy-radio-live-firsus/",
+  "homepage": "./",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
@@ -17,7 +17,7 @@
     "cross-env": "^5.2.0",
     "gh-pages": "^2.2.0",
     "react-hot-loader": "^4.9.0",
-    "react-scripts": "^3.1.2"
+    "react-scripts": "^3.4.0"
   },
   "dependencies": {
     "@vkontakte/icons": "^1.16.1",
