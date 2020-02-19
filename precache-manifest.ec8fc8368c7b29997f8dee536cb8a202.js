@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "149461a20a5f08403d1c2630aaba6de4",
+    "revision": "a247706158fc6e6ceb437b468f380a01",
     "url": "/comedy-radio-live-firsus/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/comedy-radio-live-firsus/static/css/2.35741284.chunk.css"
   },
   {
-    "revision": "f45edd1dba7ce415370d",
+    "revision": "95d0cc2daf7c76579949",
     "url": "/comedy-radio-live-firsus/static/css/main.981f7211.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/comedy-radio-live-firsus/static/js/2.a3b3e924.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f45edd1dba7ce415370d",
-    "url": "/comedy-radio-live-firsus/static/js/main.f54b031f.chunk.js"
+    "revision": "95d0cc2daf7c76579949",
+    "url": "/comedy-radio-live-firsus/static/js/main.4328ba36.chunk.js"
   },
   {
     "revision": "4e0ad3e9d9e8c5317671",
