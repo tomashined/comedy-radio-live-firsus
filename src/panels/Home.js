@@ -18,11 +18,8 @@ const Home = ({ id, go, fetchedUser }) => (
 			<img class="BannerComedyRadio" src={BannerComedyRadio}/>
 		</a>
 		
-		<audio class = "AudioPleer" preload="auto" autoPlay="" controls>
-			<source src="http://ic7.101.ru:8000/a202" type="audio/mpeg"></source>
-			<source src="http://ic7.101.ru:8000/a202" type="audio/ogg"></source>
-			<source src="http://ic7.101.ru:8000/a202" type="audio/wav"></source>
-			Ваш браузер не поддерживает элемент <code>audio</code>
+		<audio class='AudioPleer' controls="true" autoplay="true">
+			<source src="https://pub0101.101.ru:443/stream/air/aac/64/202" type="audio/aac"></source>
 		</audio>
 
 
