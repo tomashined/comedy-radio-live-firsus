@@ -13,7 +13,7 @@ import './Home.css';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Comedy Radio Live228</PanelHeader>
+		<PanelHeader>Comedy Radio Live</PanelHeader>
 		<a href="https://comedy-radio.ru/" target="_blank">
 			<img class="BannerComedyRadio" src={BannerComedyRadio}/>
 		</a>
@@ -22,6 +22,7 @@ const Home = ({ id, go, fetchedUser }) => (
 			<source src="http://ic7.101.ru:8000/a202" type="audio/mpeg"></source>
 			<source src="http://ic7.101.ru:8000/a202" type="audio/ogg"></source>
 			<source src="http://ic7.101.ru:8000/a202" type="audio/wav"></source>
+			Ваш браузер не поддерживает элемент <code>audio</code>
 		</audio>
 
 
