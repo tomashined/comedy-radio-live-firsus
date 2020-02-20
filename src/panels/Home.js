@@ -12,19 +12,12 @@ import BannerComedyRadio from '../img/BannerComedyRadio.jpg';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
+		<PanelHeader>Comedy Radio Live</PanelHeader>
 		<img className="BannerComedyRadio" src={BannerComedyRadio} alt="Persik The Cat"/>
 		<a href="https://comedy-radio.ru/" target="_blank">
 			<img className="ComedyRadioHomeSiteLogo" src={ComedyRadioHomeSiteLogo} alt="Persik The Cat"/>
 		</a>
-		<PanelHeader>Comedy Radio Live</PanelHeader>
 		
-		<Group title="Navigation Example">
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Persik, please
-				</Button>
-			</Div>
-		</Group>
 
 		<video controls="" autoplay="" name="media">
 			<source src="http://ic7.101.ru:8000/a202" type="audio/aac">
@@ -32,11 +25,6 @@ const Home = ({ id, go, fetchedUser }) => (
 			</source>
 		</video>
 
-		<Group title="Navigation Example">
-				<Button size="xl" level="2" href="http://ic7.101.ru:8000/a202" target="_blank">
-					<img className="Persik" src={ComedyRadioHomeSiteLogo} alt="Persik The Cat"/>
-				</Button>
-		</Group>
 	</Panel>
 );
 
