@@ -14,16 +14,12 @@ import './Home.css';
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Comedy Radio Live</PanelHeader>
-		<img className="BannerComedyRadio" src={BannerComedyRadio}/>
 		<a href="https://comedy-radio.ru/" target="_blank">
-			<img className="ComedyRadioHomeSiteLogo" src={ComedyRadioHomeSiteLogo}/>
+			<img class="BannerComedyRadio" src={BannerComedyRadio}/>
 		</a>
 		
-		<video controls="" autoplay="" name="media">
-			<source src="http://ic7.101.ru:8000/a202" type="audio/aac">
+		<audio class = "AudioPleer" src="http://ic7.101.ru:8000/a202" preload="auto" controls ></audio>
 
-			</source>
-		</video>
 
 	</Panel>
 );

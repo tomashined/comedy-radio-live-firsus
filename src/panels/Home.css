@@ -1,7 +1,7 @@
 .BannerComedyRadio {
   display: block;
-  width: 100%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 3000px;
   margin: 20px auto;
 }
 
@@ -11,6 +11,14 @@
   max-width: 1000px;
   margin: 20px auto;
 }
+
+.AudioPleer {
+  display: block;
+  width: 60%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
 /*
 .Persik {
   display: block;
