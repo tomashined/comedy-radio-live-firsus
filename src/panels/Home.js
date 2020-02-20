@@ -18,7 +18,9 @@ const Home = ({ id, go, fetchedUser }) => (
 			<img class="BannerComedyRadio" src={BannerComedyRadio}/>
 		</a>
 		
-		<audio class = "AudioPleer" src="http://ic7.101.ru:8000/a202" preload="auto" controls ></audio>
+		<audio class = "AudioPleer" preload="auto" controls>
+			<source src="http://ic7.101.ru:8000/a202"></source>
+		</audio>
 
 
 	</Panel>
