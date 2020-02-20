@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/comedy-radio-live-firsus/static/css/main.dab9708e.chunk.css",
-    "main.js": "/comedy-radio-live-firsus/static/js/main.44330f54.chunk.js",
-    "main.js.map": "/comedy-radio-live-firsus/static/js/main.44330f54.chunk.js.map",
+    "main.css": "/comedy-radio-live-firsus/static/css/main.3628bee4.chunk.css",
+    "main.js": "/comedy-radio-live-firsus/static/js/main.9ac4e5fe.chunk.js",
+    "main.js.map": "/comedy-radio-live-firsus/static/js/main.9ac4e5fe.chunk.js.map",
     "runtime-main.js": "/comedy-radio-live-firsus/static/js/runtime-main.6f642817.js",
     "runtime-main.js.map": "/comedy-radio-live-firsus/static/js/runtime-main.6f642817.js.map",
     "static/css/2.35741284.chunk.css": "/comedy-radio-live-firsus/static/css/2.35741284.chunk.css",
-    "static/js/2.071f542f.chunk.js": "/comedy-radio-live-firsus/static/js/2.071f542f.chunk.js",
-    "static/js/2.071f542f.chunk.js.map": "/comedy-radio-live-firsus/static/js/2.071f542f.chunk.js.map",
+    "static/js/2.64aea03f.chunk.js": "/comedy-radio-live-firsus/static/js/2.64aea03f.chunk.js",
+    "static/js/2.64aea03f.chunk.js.map": "/comedy-radio-live-firsus/static/js/2.64aea03f.chunk.js.map",
     "index.html": "/comedy-radio-live-firsus/index.html",
-    "precache-manifest.b6983e4ae84970ef0c1b7771e67bb187.js": "/comedy-radio-live-firsus/precache-manifest.b6983e4ae84970ef0c1b7771e67bb187.js",
+    "precache-manifest.1fc68e2046e2e10c051c428d30e16600.js": "/comedy-radio-live-firsus/precache-manifest.1fc68e2046e2e10c051c428d30e16600.js",
     "service-worker.js": "/comedy-radio-live-firsus/service-worker.js",
     "static/css/2.35741284.chunk.css.map": "/comedy-radio-live-firsus/static/css/2.35741284.chunk.css.map",
-    "static/css/main.dab9708e.chunk.css.map": "/comedy-radio-live-firsus/static/css/main.dab9708e.chunk.css.map",
-    "static/js/2.071f542f.chunk.js.LICENSE.txt": "/comedy-radio-live-firsus/static/js/2.071f542f.chunk.js.LICENSE.txt",
+    "static/css/main.3628bee4.chunk.css.map": "/comedy-radio-live-firsus/static/css/main.3628bee4.chunk.css.map",
+    "static/js/2.64aea03f.chunk.js.LICENSE.txt": "/comedy-radio-live-firsus/static/js/2.64aea03f.chunk.js.LICENSE.txt",
     "static/media/BannerComedyRadio.jpg": "/comedy-radio-live-firsus/static/media/BannerComedyRadio.0089eb3f.jpg",
-    "static/media/ComedyRadioHomeSiteLogo.svg": "/comedy-radio-live-firsus/static/media/ComedyRadioHomeSiteLogo.ac379203.svg",
-    "static/media/persik.png": "/comedy-radio-live-firsus/static/media/persik.4e1ec840.png"
+    "static/media/ComedyRadioHomeSiteLogo.svg": "/comedy-radio-live-firsus/static/media/ComedyRadioHomeSiteLogo.ac379203.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6f642817.js",
     "static/css/2.35741284.chunk.css",
-    "static/js/2.071f542f.chunk.js",
-    "static/css/main.dab9708e.chunk.css",
-    "static/js/main.44330f54.chunk.js"
+    "static/js/2.64aea03f.chunk.js",
+    "static/css/main.3628bee4.chunk.css",
+    "static/js/main.9ac4e5fe.chunk.js"
   ]
 }
