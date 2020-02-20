@@ -19,6 +19,11 @@
   margin: 20px auto;
 }
 
+.Panel__in{
+  background: url(https://i.pinimg.com/originals/d6/68/ab/d668abc72809303852c27275e6a56775.gif);
+  background-size: cover;
+  }
+
 /*
 .Persik {
   display: block;
