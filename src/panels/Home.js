@@ -9,16 +9,16 @@ import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 import ComedyRadioHomeSiteLogo from '../img/ComedyRadioHomeSiteLogo.svg';
 import BannerComedyRadio from '../img/BannerComedyRadio.jpg';
+import './Home.css';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Comedy Radio Live</PanelHeader>
-		<img className="BannerComedyRadio" src={BannerComedyRadio} alt="Persik The Cat"/>
+		<img className="BannerComedyRadio" src={BannerComedyRadio}/>
 		<a href="https://comedy-radio.ru/" target="_blank">
-			<img className="ComedyRadioHomeSiteLogo" src={ComedyRadioHomeSiteLogo} alt="Persik The Cat"/>
+			<img className="ComedyRadioHomeSiteLogo" src={ComedyRadioHomeSiteLogo}/>
 		</a>
 		
-
 		<video controls="" autoplay="" name="media">
 			<source src="http://ic7.101.ru:8000/a202" type="audio/aac">
 
