@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/comedy-radio-live-firsus/precache-manifest.2c4e7530c14e76d722db9d3d0c00f8a2.js"
+  "/comedy-radio-live-firsus/precache-manifest.df13cae9037319e2cc2bc60438a3aba7.js"
 );
 
 self.addEventListener('message', (event) => {
