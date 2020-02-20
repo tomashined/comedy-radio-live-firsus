@@ -19,7 +19,9 @@ const Home = ({ id, go, fetchedUser }) => (
 		</a>
 		
 		<audio class='AudioPleer' controls="true" autoplay="true">
-			<source src="https://pub0101.101.ru:443/stream/air/aac/64/202" type="audio/aac"></source>
+			<source src="https://pub0101.101.ru:443/stream/air/aac/64/202" type="audio/aac">
+				
+			</source>
 		</audio>
 
 
