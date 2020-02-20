@@ -19,7 +19,8 @@ const Home = ({ id, go, fetchedUser }) => (
 		</a>
 		
 		<audio class = "AudioPleer" preload="auto" controls>
-			<source src="http://ic7.101.ru:8000/a202"></source>
+			<source src="http://ic7.101.ru:8000/a202" type="audio/mpeg"></source>
+			<source src="http://ic7.101.ru:8000/a202" type="audio/ogg"></source>
 		</audio>
 
 
