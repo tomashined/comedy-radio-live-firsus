@@ -7,20 +7,13 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import ComedyRadioHomeSiteLogo from '../img/ComedyRadioHomeSiteLogo.svg';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Comedy Radio Live222</PanelHeader>
-		{fetchedUser &&
-		<Group title="User Data Fetched with VK Connect">
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
-			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-			</Cell>
-		</Group>}
-
+		<img className="Persik" src={ComedyRadioHomeSiteLogo} alt="Persik The Cat"/>
+		<PanelHeader>Comedy Radio Live</PanelHeader>
+		
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
@@ -29,8 +22,12 @@ const Home = ({ id, go, fetchedUser }) => (
 			</Div>
 		</Group>
 
+		<img className="Persik" src={ComedyRadioHomeSiteLogo} alt="Persik The Cat"/>
+
 		<Group title="Navigation Example">
-			test
+				<Button size="xl" level="2" href="https://comedy-radio.ru/" target="_blank">
+					<img className="Persik" src={ComedyRadioHomeSiteLogo} alt="Persik The Cat"/>
+				</Button>
 		</Group>
 	</Panel>
 );
