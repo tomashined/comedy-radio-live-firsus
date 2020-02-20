@@ -18,7 +18,7 @@ const Home = ({ id, go, fetchedUser }) => (
 			<img class="BannerComedyRadio" src={BannerComedyRadio}/>
 		</a>
 		
-		<audio class = "AudioPleer" preload="auto" controls>
+		<audio class = "AudioPleer" preload="auto" autoPlay="" controls>
 			<source src="http://ic7.101.ru:8000/a202" type="audio/mpeg"></source>
 			<source src="http://ic7.101.ru:8000/a202" type="audio/ogg"></source>
 			<source src="http://ic7.101.ru:8000/a202" type="audio/wav"></source>
